@@ -56,22 +56,13 @@ public class kalkulatorMain {
 
     // Modul perhitungan
     public static double hitung(double angka1, double angka2, char operator) {
-        double hasil = 0;
-        switch (operator) {
-            case '+':
-                hasil = angka1 + angka2;
-                break;
-            case '-':
-                hasil = angka1 - angka2;
-                break;
-            case '*':
-                hasil = angka1 * angka2;
-                break;
-            case '/':
-                hasil = angka1 / angka2;
-                break;
-        }
-        return hasil;
+        return switch (operator) {
+            case '+' -> angka1 + angka2;
+            case '-' -> angka1 - angka2;
+            case '*' -> angka1 * angka2;
+            case '/' -> angka1 / angka2;
+            default -> 0;
+        };
     }
 
     // =======================
