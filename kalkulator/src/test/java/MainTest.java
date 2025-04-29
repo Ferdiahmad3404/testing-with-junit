@@ -1,28 +1,28 @@
 import static org.junit.jupiter.api.Assertions.*;
 
-import com.kalkulator.kalkulatorMain;
+import com.kalkulator.KalkulatorMain;
 import org.junit.jupiter.api.Test;
 
 public class MainTest {
 
     @Test
     public void testPenjumlahan() {
-        assertEquals(5.0, kalkulatorMain.hitung(2.0, 3.0, '+'));
+        assertEquals(5.0, KalkulatorMain.hitung(2.0, 3.0, '+'));
     }
 
     @Test
     public void testPengurangan() {
-        assertEquals(-1.0, kalkulatorMain.hitung(2.0, 3.0, '-'));
+        assertEquals(-1.0, KalkulatorMain.hitung(2.0, 3.0, '-'));
     }
 
     @Test
     public void testPerkalian() {
-        assertEquals(6.0, kalkulatorMain.hitung(2.0, 3.0, '*'));
+        assertEquals(6.0, KalkulatorMain.hitung(2.0, 3.0, '*'));
     }
 
     @Test
     public void testPembagian() {
-        assertEquals(2.0, kalkulatorMain.hitung(6.0, 3.0, '/'));
+        assertEquals(2.0, KalkulatorMain.hitung(6.0, 3.0, '/'));
     }
 
 //    @Test
