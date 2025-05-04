@@ -11,7 +11,7 @@ public class KonfirmasiKeluar {
             String input = scanner.next().trim().toLowerCase();
 
             if (input.equals("y")) {
-                return true;
+                return true ;
             } else if (input.equals("n")) {
                 return false;
             } else {
