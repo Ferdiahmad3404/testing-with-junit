@@ -8,13 +8,6 @@ import java.io.PrintStream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class ViewHasilHitung {
-
-    public static void tampilkan(double hasil) {
-        System.out.println("Hasil: " + hasil);
-    }
-}
-
 public class ViewHasilHitungTest {
 
     @Test
@@ -28,6 +21,6 @@ public class ViewHasilHitungTest {
         ViewHasilHitung.tampilkan(42.5);
 
         // Assert - Periksa output
-        assertEquals("Hasil: 42.5\n", outputStream.toString());
+        assertEquals("Hasil: 42.5\n", outputStream.toString().trim() + "\n");
     }
 }

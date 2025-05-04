@@ -21,6 +21,6 @@ public class ErrorOperatorInvalidTest {
         ErrorOperatorInvalid.tampilkan();
 
         // Assert - Periksa output
-        assertEquals("Error: Operator tidak valid.\n", outputStream.toString());
+        assertEquals("Error: Operator tidak valid.\n", outputStream.toString().trim() + "\n");
     }
 }

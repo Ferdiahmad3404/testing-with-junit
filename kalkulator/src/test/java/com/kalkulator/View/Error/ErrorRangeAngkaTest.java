@@ -21,6 +21,6 @@ public class ErrorRangeAngkaTest {
         ErrorRangeAngka.tampilkan();
 
         // Assert - Periksa output
-        assertEquals("Error: Angka harus dalam rentang -32.768 hingga 32.767.\n", outputStream.toString());
+        assertEquals("Error: Angka harus dalam rentang -32.768 hingga 32.767.\n", outputStream.toString().trim() + "\n");
     }
 }

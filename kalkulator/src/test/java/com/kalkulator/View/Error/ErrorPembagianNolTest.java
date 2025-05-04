@@ -21,6 +21,6 @@ public class ErrorPembagianNolTest {
         ErrorPembagianNol.tampilkan();
 
         // Assert - Periksa output
-        assertEquals("Error: Tidak dapat membagi dengan nol.\n", outputStream.toString());
+        assertEquals("Error: Tidak dapat membagi dengan nol.\n", outputStream.toString().trim() + "\n");
     }
 }

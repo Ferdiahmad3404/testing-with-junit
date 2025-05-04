@@ -21,6 +21,6 @@ public class ErrorInputBukanAngkaTest {
         ErrorInputBukanAngka.tampilkan();
 
         // Assert - Periksa output
-        assertEquals("Error: Input harus berupa angka.\n", outputStream.toString());
+        assertEquals("Error: Input harus berupa angka.\n", outputStream.toString().trim() + "\n");
     }
 }

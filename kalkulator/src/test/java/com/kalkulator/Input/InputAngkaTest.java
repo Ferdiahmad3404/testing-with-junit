@@ -22,7 +22,7 @@ public class InputAngkaTest {
         double hasil = InputAngka.getInput(scannerMock, "Masukkan angka:");
 
         // Assert - Periksa hasil
-        assertEquals(15.0, hasil, "InputAngka harus mengembalikan angka yang valid.");
+        assertEquals(15.0, hasil, "Input Angka harus mengembalikan angka yang valid.");
         verify(scannerMock, times(1)).hasNextDouble();
         verify(scannerMock, times(1)).nextDouble();
     }

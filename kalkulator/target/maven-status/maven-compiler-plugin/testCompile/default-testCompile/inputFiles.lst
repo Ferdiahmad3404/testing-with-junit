@@ -9,3 +9,15 @@ D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkul
 D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\Validation\ValidasiInputAngkaTest.java
 D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\Validation\ValidasiOperatorTest.java
 D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\Validation\ValidasiPembagiTest.java
+D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\Validation\ValidasiRangeAngkaTest.java
+D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\View\Error\ErrorInputBukanAngkaTest.java
+D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\View\Error\ErrorOperatorInvalidTest.java
+D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\View\Error\ErrorPembagianNolTest.java
+D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\View\Error\ErrorRangeAngkaTest.java
+D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\View\Information\ViewCloseAppTest.java
+D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\View\Information\ViewHasilHitungTest.java
+D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\View\Information\ViewInitialAppTest.java
+D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\View\Information\ViewInputDuaTest.java
+D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\View\Information\ViewInputSatuTest.java
+D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\View\Information\ViewKonfirmasiKeluarTest.java
+D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\View\Information\ViewMasukkanOperatorTest.java

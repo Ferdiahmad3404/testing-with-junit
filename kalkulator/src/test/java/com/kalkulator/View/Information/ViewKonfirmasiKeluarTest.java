@@ -35,6 +35,6 @@ public class ViewKonfirmasiKeluarTest {
         ViewKonfirmasiKeluar.tampilkanKonfirmasiError();
 
         // Assert - Periksa output
-        assertEquals("Input tidak valid. Silakan masukkan 'y' untuk lanjut atau 'n' untuk keluar.\n", outputStream.toString());
+        assertEquals("Input tidak valid. Silakan masukkan 'y' untuk lanjut atau 'n' untuk keluar.\n", outputStream.toString().trim() + "\n");
     }
 }

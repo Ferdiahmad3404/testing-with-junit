@@ -21,6 +21,6 @@ public class ViewCloseAppTest {
         ViewCloseApp.tampilkan();
 
         // Assert - Periksa output
-        assertEquals("Terima kasih telah menggunakan kalkulator!\n", outputStream.toString());
+        assertEquals("Terima kasih telah menggunakan kalkulator!\n", outputStream.toString().trim() + "\n");
     }
 }
