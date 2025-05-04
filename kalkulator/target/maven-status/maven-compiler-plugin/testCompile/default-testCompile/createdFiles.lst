@@ -1,5 +1,6 @@
 com\kalkulator\Operator\BagiOperatorTest.class
 com\kalkulator\Input\InputOperatorTest.class
+com\kalkulator\Operator\KalkulasiTest.class
 com\kalkulator\Exit\KonfirmasiKeluarTest.class
 com\kalkulator\Operator\KaliOperatorTest.class
 com\kalkulator\Input\InputAngkaTest.class
