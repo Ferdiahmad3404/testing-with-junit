@@ -1,6 +1,6 @@
-package com.kalkulator;
+package com.kalkulator.Validation;
 
-public class OperatorValidator {
+public class ValidasiOperator {
     public static boolean validasi(char operator) {
         return operator == '+' || operator == '-' || operator == '*' || operator == '/';
     }
