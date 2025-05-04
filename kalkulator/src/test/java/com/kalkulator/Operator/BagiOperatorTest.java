@@ -15,10 +15,10 @@ public class BagiOperatorTest {
     void testPembagianValid() {
         // Precondition: Angka valid
         double a = 10;
-        double b = 2;
+        double b = 5;
 
         // Expectation: Tidak ada exception, hasil = 5
-        double expected = 5.0;
+        double expected = 2.0;
 
         // Act
         double actual = BagiOperator.hitung(a, b);
