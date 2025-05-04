@@ -42,4 +42,21 @@ public class InputAngkaTest {
         assertEquals(20.0, hasil, "InputAngka harus mencoba ulang hingga angka valid dimasukkan.");
         verify(scannerMock, times(2)).hasNextDouble();
     }
+
+    @Test
+    @Tag("inputAngka")
+    void testGetInputAngkaDalamRange() {
+        // Arrange - Siapkan Scanner yang dimock
+        Scanner scannerMock = mock(Scanner.class);
+        when(scannerMock.hasNextDouble()).thenReturn(true);
+        when(scannerMock.nextDouble()).thenReturn(5.0);
+
+        // Act - Panggil metode yang diuji
+        double hasil = InputAngka.getInput(scannerMock, "Masukkan angka pertama:");
+
+        // Assert - Periksa hasil
+        assertEquals(5.0, hasil, "Program tidak memberikan pesan error dan melanjutkan ke tahap berikutnya.");
+        verify(scannerMock, times(1)).hasNextDouble();
+        verify(scannerMock, times(1)).nextDouble();
+    }
 }

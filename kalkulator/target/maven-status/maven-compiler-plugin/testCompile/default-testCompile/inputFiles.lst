@@ -1,6 +1,11 @@
-D:\Akademi\Semester_6\PPL\Pertemuan_8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\Exit\KonfirmasiKeluarTest.java
-D:\Akademi\Semester_6\PPL\Pertemuan_8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\Input\InputAngkaTest.java
-D:\Akademi\Semester_6\PPL\Pertemuan_8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\Input\InputOperatorTest.java
-D:\Akademi\Semester_6\PPL\Pertemuan_8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\Operator\BagiOperatorTest.java
-D:\Akademi\Semester_6\PPL\Pertemuan_8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\Operator\KaliOperatorTest.java
-D:\Akademi\Semester_6\PPL\Pertemuan_8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\Operator\KalkulasiTest.java
+D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\Exit\KonfirmasiKeluarTest.java
+D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\Input\InputAngkaTest.java
+D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\Input\InputOperatorTest.java
+D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\Operator\BagiOperatorTest.java
+D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\Operator\KaliOperatorTest.java
+D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\Operator\KalkulasiTest.java
+D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\Operator\KurangOperatorTest.java
+D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\Operator\TambahOperatorTest.java
+D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\Validation\ValidasiInputAngkaTest.java
+D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\Validation\ValidasiOperatorTest.java
+D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\src\test\java\com\kalkulator\Validation\ValidasiPembagiTest.java
