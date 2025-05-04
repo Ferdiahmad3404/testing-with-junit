@@ -1,1 +1,4 @@
+com\kalkulator\Operator\BagiOperatorTest.class
+com\kalkulator\Input\InputOperatorTest.class
 com\kalkulator\Exit\KonfirmasiKeluarTest.class
+com\kalkulator\Input\InputAngkaTest.class

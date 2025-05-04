@@ -1,6 +1,7 @@
 package com.kalkulator.Operator;
 
-import com.kalkulator.Error.ErrorPembagianNol;
+import com.kalkulator.View.Error.ErrorPembagianNol;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.mockito.MockedStatic;
 
@@ -10,6 +11,7 @@ import static org.mockito.Mockito.*;
 public class BagiOperatorTest {
 
     @Test
+    @Tag("bagiOperator")
     void testPembagianValid() {
         // Precondition: Angka valid
         double a = 10;
@@ -26,6 +28,7 @@ public class BagiOperatorTest {
     }
 
     @Test
+    @Tag("bagiOperator")
     void testPembagianDenganNol() {
         // Precondition: b = 0
         double a = 10;

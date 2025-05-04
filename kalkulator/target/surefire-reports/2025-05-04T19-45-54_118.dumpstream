@@ -1,5 +1,0 @@
-# Created at 2025-05-04T19:45:54.488
-Boot Manifest-JAR contains absolute paths in classpath 'D:\coolyeah\sem6\PPL\W8-9\testing-with-junit\kalkulator\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-'other' has different root
-
